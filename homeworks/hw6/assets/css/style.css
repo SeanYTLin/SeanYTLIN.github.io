@@ -59,9 +59,9 @@
 }
 /* TODO: PART 2 - Create wave animation */
 @keyframes ud {
-	0% { top: 100px; }
-	50% { top: 0px; }
-	100% { top: 100px; }
+	0% { transform: translateY(0px)}
+	40% { transform: translateY(-50px)}
+	80% { transform: translateY(0px)}
  }
 
 /* Loader three: Flip */
