@@ -3,6 +3,7 @@ document.getElementById("door").onclick = door;
 
 function door(){
   if (document.getElementById("condition").innerHTML % 3 == 0) {
+    alert("You shrink and get throught under the door.");
     location.replace("TrueEnd.html");
   } else if (document.getElementById("condition").innerHTML % 2 == 0){
     alert("Screwing up by using a screwdriver to open the door...");
@@ -52,6 +53,15 @@ function password() {
     } else if (password == "Dm7") {
       text = "You get a Shrinking Solution.";
       condition = 3;
+    } else if (password == "198") {
+      text = "Nice guess, but not now.";
+      condition = 1;
+    } else if (password == "7h") {
+      text = "Nice guess, but not now.";
+      condition = 1;
+    } else if (password == "7H") {
+      text = "Nice guess, but not now.";
+      condition = 1;
     } else {
       text = "Nothing happen.";
       condition = 1;
@@ -62,4 +72,10 @@ function password() {
   }
 
 
-  
+//NothingHere//
+document.getElementById("NothingHere").onclick = nothinghere;
+
+function nothinghere(){
+  alert("You realize that you are facing a wall, not in a room.");
+  location.replace("SpeedRunEng.html");
+}

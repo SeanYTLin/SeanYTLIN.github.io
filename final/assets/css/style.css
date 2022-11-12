@@ -27,7 +27,7 @@
 }
 
 #body {
-	background-color:#EACCC6;
+	background-color:#838383;
 }
 
 #condition {
@@ -63,6 +63,9 @@
 	z-index: 0;	
 }
 
+.dark .body{
+	background-color: #838383;
+}
 
 /* safe */
 #safe-button {

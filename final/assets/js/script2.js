@@ -64,4 +64,11 @@ function password() {
   }
 
 
+//NothingHere//
+document.getElementById("NothingHere").onclick = nothinghere;
+
+function nothinghere(){
+  alert("You realize that you are facing a wall, not in a room.");
+  location.replace("SpeedRunEng.html");
+}
   
