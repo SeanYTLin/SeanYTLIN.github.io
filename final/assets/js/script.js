@@ -12,6 +12,10 @@ function door(){
   }
 }
 
+var doorsound = new Audio();
+doorsound.src ="assets/sound/door.mp3";
+//www.fesliyanstudios.co//
+
 //Light//
 document.getElementById("light-button").onclick = light;
 
@@ -19,8 +23,10 @@ function light(){
   let dark_mode = document.getElementById("body")
   dark_mode.classList.toggle("dark");
 }
-//Event//
 
+var switchsound = new Audio();
+switchsound.src ="assets/sound/switch.mp3";
+//www.fesliyanstudios.co//
 
 //Music//
 document.getElementById("music").onclick = music;
@@ -69,8 +75,11 @@ function password() {
 
     document.getElementById("screwdriver-text").innerHTML = text;
     document.getElementById("condition").innerHTML = document.getElementById("condition").innerHTML * condition;
-  }
+}
 
+var safesound = new Audio();
+safesound.src ="assets/sound/safe.mp3";
+//https://www.soundjay.com/beep-sounds-1.html//
 
 //NothingHere//
 document.getElementById("NothingHere").onclick = nothinghere;
@@ -79,3 +88,7 @@ function nothinghere(){
   alert("You realize that you are facing a wall, not in a room.");
   location.replace("SpeedRunEng.html");
 }
+
+//BGM//
+var bgm = new Audio();
+bgm.src ="assets/sound/1.mp3";

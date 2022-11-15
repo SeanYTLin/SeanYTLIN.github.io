@@ -8,7 +8,7 @@
 	
 <div class="content">
 	
-	<div id="door">
+	<div id="door" onmousedown="doorsound.play()">
 		<img src="assets/img/door.png">
 	</div>
 
@@ -41,8 +41,8 @@
 	</div>
 </div>
 
-<button id="light-button"></button>
-<button id="safe-button">Enter</button>
+<button id="light-button" onmousedown="switchsound.play()"></button>
+<button id="safe-button" onmousedown="safesound.play()">Enter</button>
 
 <p id="music-text"></p>
 <p id="screwdriver-text"></p>
