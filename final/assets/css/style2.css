@@ -38,7 +38,7 @@
 	color: #e6e6e6;
 }
 
-#music-text, #screwdriver-text, #key-text, #End {
+#music-text, #screwdriver-text, #key-text, #End, #link, #TE-text{
 	font-family: "Monaco";
 }
 
@@ -128,13 +128,44 @@
 /*Open the Door*/
 @keyframes open{
 	0% {}
-	100% {transform-origin: left; transform: rotateY(-90deg);}
+	100% {transform-origin: left; transform: rotateY(-50deg);}
 }
 
 .opendoor #door {
 	animation-name: open;
-	animation-duration: 1s;
+	animation-duration: 0.7s;
 	animation-timing-function: ease-out;
 	animation-delay: 0s;
 	animation-fill-mode: forwards;
+}
+
+
+/* True End*/
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#body_TE {
+	background-color:#addd9d;
+}
+
+#TE-text {
+	font-size: 300%;
+	text-align: center;
+}
+
+#link {
+	font-size: 300%;
+	align-content: center;	
+}
+
+a:link {
+	color: rgb(101, 176, 242);
+}
+  
+a:visited {
+	color: rgb(101, 176, 242);
 }

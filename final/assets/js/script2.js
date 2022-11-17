@@ -10,6 +10,7 @@ function door(){
     opendoor.classList.toggle("opendoor");
     alert("Nice try.");
     document.getElementById("End").innerHTML = "Normal end. You can try other passwords.";
+    document.getElementById("condition").innerHTML = document.getElementById("condition").innerHTML = 1;
   } else if (document.getElementById("condition").innerHTML % 2 == 0){
     alert("Wrong key... Another way is don't use the key... or notes...");
   } else{
