@@ -34,6 +34,20 @@
 	color: transparent;
 }
 
+#End {
+	color: #e6e6e6;
+}
+
+#music-text, #screwdriver-text, #key-text, #End {
+	font-family: "Monaco";
+}
+
+/*hover*/
+
+#door, #light-button, #music, #safe-button :hover{
+	cursor: pointer;
+}
+
 /* light */
 #light-button {
 	padding: 13px 10px;
@@ -111,4 +125,16 @@
 	animation-fill-mode: forwards;
 }
 
+/*Open the Door*/
+@keyframes open{
+	0% {}
+	100% {transform-origin: left; transform: rotateY(-90deg);}
+}
 
+.opendoor #door {
+	animation-name: open;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+}

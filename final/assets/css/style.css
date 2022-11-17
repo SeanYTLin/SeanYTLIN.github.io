@@ -2,7 +2,7 @@
 /* position */
 .content {
 	display: flex;
-   flex-direction: row;
+	flex-direction: row;
 }
 
 #door {
@@ -32,6 +32,16 @@
 
 #condition {
 	color: transparent;
+}
+
+#music-text, #screwdriver-text, #key-text, #End {
+	font-family: "Monaco";
+}
+
+/*hover*/
+
+#door, #light-button, #music, #safe-button :hover{
+	cursor: pointer;
 }
 
 /* light */

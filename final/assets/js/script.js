@@ -60,7 +60,7 @@ function password() {
       text = "You get a Shrinking Solution.";
       condition = 3;
     } else if (password == "198") {
-      text = "Nice guess, but not now.";
+      text = "Nice guess, but not now. :)";
       condition = 1;
     } else if (password == "7h") {
       text = "Nice guess, but not now.";
@@ -88,7 +88,3 @@ function nothinghere(){
   alert("You realize that you are facing a wall, not in a room.");
   location.replace("SpeedRunEng.html");
 }
-
-//BGM//
-var bgm = new Audio();
-bgm.src ="assets/sound/1.mp3";

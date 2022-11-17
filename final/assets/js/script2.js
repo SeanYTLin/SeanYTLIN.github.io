@@ -3,10 +3,13 @@ document.getElementById("door").onclick = door;
 
 function door(){
   if (document.getElementById("condition").innerHTML % 3 == 0) {
+    alert("You shrink and get throught under the door.");
     location.replace("TrueEnd.html");
   } else if (document.getElementById("condition").innerHTML % 5 == 0){
+    var opendoor = document.getElementById("body");
+    opendoor.classList.toggle("opendoor");
     alert("Nice try.");
-    location.replace("NormalEnd.html");
+    document.getElementById("End").innerHTML = "Normal end. You can try other passwords.";
   } else if (document.getElementById("condition").innerHTML % 2 == 0){
     alert("Wrong key... Another way is don't use the key... or notes...");
   } else{
@@ -14,15 +17,21 @@ function door(){
   }
 }
 
+var doorsound = new Audio();
+doorsound.src ="assets/sound/door.mp3";
+//www.fesliyanstudios.co//
+
 //Light//
 document.getElementById("light-button").onclick = light;
 
 function light(){
-  let dark_mode = document.getElementById("body")
+  let dark_mode = document.getElementById("body");
   dark_mode.classList.toggle("dark");
 }
-//Event//
 
+var switchsound = new Audio();
+switchsound.src ="assets/sound/switch.mp3";
+//www.fesliyanstudios.co//
 
 //Music//
 document.getElementById("music").onclick = music;
@@ -63,6 +72,10 @@ function password() {
     document.getElementById("condition").innerHTML = document.getElementById("condition").innerHTML * condition;
   }
 
+
+var safesound = new Audio();
+safesound.src ="assets/sound/safe.mp3";
+//https://www.soundjay.com/beep-sounds-1.html//
 
 //NothingHere//
 document.getElementById("NothingHere").onclick = nothinghere;
