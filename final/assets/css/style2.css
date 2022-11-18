@@ -38,7 +38,7 @@
 	color: #e6e6e6;
 }
 
-#music-text, #screwdriver-text, #key-text, #End, #link, #TE-text{
+#music-text, #screwdriver-text, #key-text, #End, #link, #TE-text, #link-SRE{
 	font-family: "Monaco";
 }
 
@@ -152,6 +152,11 @@
 	background-color:#addd9d;
 }
 
+#body_SRE {
+	background-color:rgb(101, 176, 242);
+}
+
+
 #TE-text {
 	font-size: 300%;
 	text-align: center;
@@ -160,6 +165,12 @@
 #link {
 	font-size: 300%;
 	align-content: center;	
+}
+
+#link-SRE {
+	font-size: 300%;
+	align-content: center;	
+	color: #addd9d;
 }
 
 a:link {
