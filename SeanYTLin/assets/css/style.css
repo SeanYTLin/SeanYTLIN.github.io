@@ -2,17 +2,24 @@
     background: rgb(228, 178, 120);
 }
 
-.top-text{
+.top-text {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 10%;
-    padding-left: 10%;
+    align-items: center;
+    padding: 0.05em 5%; /* use relative padding */
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5rem; /* use relative font size */
     font-family: Lato;
     color: black;
-}
+    background-color: rgba(228, 178, 120, 0.9);
+    z-index: 1;
+    backdrop-filter: blur(10px);
+  }
 
 .top-text-1:hover{
     color: papayawhip;
