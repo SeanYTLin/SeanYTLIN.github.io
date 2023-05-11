@@ -81,8 +81,8 @@
     letter-spacing: 0.1rem;
 }
 
-/* Media query for screens smaller than 768px */
-@media (max-width: 768px) {
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
     .description{
         flex-direction: column;
         align-items: center;
