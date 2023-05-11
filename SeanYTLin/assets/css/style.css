@@ -90,7 +90,7 @@
 
     .description-img-1{
         width: 100%;
-        margin-bottom: 1rem;
+        /*margin-bottom: 1rem;*/
     }
 
     .description-text{
@@ -100,12 +100,12 @@
     }
 
     .description-text-1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         letter-spacing: 0.1rem;
     }
 
     .description-text-2{
-        font-size: 1.5rem;
+        font-size: 1rem;
         letter-spacing: 0.05rem;
     }
 }
