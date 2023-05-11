@@ -144,6 +144,15 @@
         color:firebrick;
         background-color: rgba(228, 178, 120, 0.1);
     }
+
+    .description-img-2 {
+        width: 100%;
+    }
+    
+    .description-img-2 img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .bottom{
