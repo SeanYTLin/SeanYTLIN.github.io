@@ -81,6 +81,35 @@
     letter-spacing: 0.1rem;
 }
 
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .description{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-img-1{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .description-text{
+        width: 100%;
+        max-width: 600px;
+        padding: 0 1rem;
+    }
+
+    .description-text-1{
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .description-text-2{
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+    }
+}
+
 .bottom{
     background: rgb(228, 178, 120);
 }
