@@ -116,12 +116,14 @@
     }
 
     .description-text{
+        top: 0;
         width: 100%;
         max-width: 600px;
         /*padding: 0 1rem;*/
     }
 
     .description-text-1{
+        padding-top: 0%;
         font-size: 1.5rem;
         letter-spacing: 0.1rem;
     }
