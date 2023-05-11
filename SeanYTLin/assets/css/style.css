@@ -1,0 +1,176 @@
+.top{
+    background: rgb(228, 178, 120);
+}
+
+.top-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 25px;
+    font-family: Lato;
+    color: black;
+}
+
+.top-text-1:hover{
+    color: papayawhip;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.homepage{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.gti{
+    font-family: Merriweather;
+    font-size: 60px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.description-img{
+    padding-left: 150px;
+}
+
+.description-img-1{
+    padding-right: 150px;
+}
+
+.description-text{
+    text-align: center;
+    font-size: 200%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.description-text-1{
+    font-family: Merriweather;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.description-text-2{
+    font-family: Lato;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    background: rgb(228, 178, 120);
+}
+
+.frist{
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.second{
+    font-family: Lato;
+    font-size: 20px;
+}
+
+.end-text-right{
+    font-family: Lato;
+    font-size: 30px; 
+    padding: 40px;   
+}
+
+.end-text-right:hover{
+    color: papayawhip;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.menu {
+    position: relative;
+    letter-spacing: 0.3px;
+  }
+
+
+.menu-text {
+    position: absolute;
+    font-size: larger;
+    padding-top: 25px;
+    padding-left: 50px;
+  }
+
+
+.menu-text-details{
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+}
+
+.menu-one{
+    display: flex;
+    flex-direction: row; 
+}
+
+.menu-text-blod{
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.img{
+    opacity: 20%;
+}
+
+
+.crop-chicken {
+    width: 1440px; 
+    height: 600px; 
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.crop-beef {
+    width: 1440px; 
+    height: 400px; 
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.crop-seafood {
+    width: 1440px; 
+    height: 600px; 
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.crop-vege {
+    width: 1440px; 
+    height: 570px; 
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.crop-calzone {
+    width: 1440px; 
+    height: 830px; 
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+.crop-salad {
+    width: 1440px; 
+    height: 600px; 
+    overflow: hidden;
+    border: 2px solid white;
+}
