@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0.05em 5%; /* use relative padding */
+    padding: 0.1em 5%; /* use relative padding */
     text-align: center;
     font-size: 1.5rem; /* use relative font size */
     font-family: Lato;
@@ -27,60 +27,82 @@
     cursor: pointer;
 }
 
+.space{
+    height: 4rem;
+}
+
 .homepage{
     width: auto;
     display: flex;
     flex-direction: column;
 }
 
-.gti{
+.name{
     font-family: Merriweather;
-    font-size: 60px;
-    letter-spacing: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
     text-align: center;
 }
 
 .description{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: flex-start;
+    gap: 4rem;
 }
 
 .description-img{
-    padding-left: 150px;
+
 }
 
 .description-img-1{
-    padding-right: 150px;
+    width: 48%;
+}
+
+.description-img-1 img {
+    width: 100%;
+    height: auto;
 }
 
 .description-text{
     text-align: center;
-    font-size: 200%;
-    padding-right: 100px;
-    padding-left: 100px;
+    /*padding: 0.1em 11%; /* use relative padding */
 }
 
 .description-text-1{
     font-family: Merriweather;
-    font-size: 35px;
-    letter-spacing: 2px;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
 }
 
 .description-text-2{
     font-family: Lato;
-    font-size: 35px;
-    letter-spacing: 2px;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.bottom{
+    background: rgb(228, 178, 120);
+}
+
+body {
+    margin: 0; /* set margin to 0 */
 }
 
 .end{
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 100px;
-    padding-left: 100px;
-    background: rgb(228, 178, 120);
+    align-items: center;
+    padding: 0.05em 5%; /* use relative padding */
+    text-align: center;
+    font-size: 1.5rem; /* use relative font size */
+    font-family: Lato;
+    color: black;
+    background-color: rgba(228, 178, 120, 0.9);
+    backdrop-filter: blur(10px);
 }
 
 .frist{
