@@ -94,6 +94,15 @@
     background-color: rgba(228, 178, 120, 0.1);
 }
 
+.description-img-2 {
+    width: 100%;
+}
+
+.description-img-2 img {
+    width: 100%;
+    height: auto;
+}
+
 /* Media query for screens smaller than 480px */
 @media (max-width: 480px) {
     .description{
@@ -151,7 +160,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0.05em 5%; /* use relative padding */
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem; /* use relative font size */
     font-family: Lato;
     color: black;
@@ -161,14 +170,15 @@ body {
 
 .frist{
     font-family: Lato;
-    font-size: 25px;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
 .second{
     font-family: Lato;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
+
 
 .end-text-right{
     font-family: Lato;
@@ -180,81 +190,4 @@ body {
     color: papayawhip;
     text-decoration: underline;
     cursor: pointer;
-}
-
-.menu {
-    position: relative;
-    letter-spacing: 0.3px;
-  }
-
-
-.menu-text {
-    position: absolute;
-    font-size: larger;
-    padding-top: 25px;
-    padding-left: 50px;
-  }
-
-
-.menu-text-details{
-    display: flex;
-    flex-direction: column;
-    line-height: 200%;
-}
-
-.menu-one{
-    display: flex;
-    flex-direction: row; 
-}
-
-.menu-text-blod{
-    font-weight: bold;
-    padding-right: 10px;
-}
-
-.img{
-    opacity: 20%;
-}
-
-
-.crop-chicken {
-    width: 1440px; 
-    height: 600px; 
-    overflow: hidden;
-    border: 3px solid white;
-}
-
-.crop-beef {
-    width: 1440px; 
-    height: 400px; 
-    overflow: hidden;
-    border: 2px solid white;
-}
-
-.crop-seafood {
-    width: 1440px; 
-    height: 600px; 
-    overflow: hidden;
-    border: 3px solid white;
-}
-
-.crop-vege {
-    width: 1440px; 
-    height: 570px; 
-    overflow: hidden;
-    border: 2px solid white;
-}
-
-.crop-calzone {
-    width: 1440px; 
-    height: 830px; 
-    overflow: hidden;
-    border: 3px solid white;
-}
-
-.crop-salad {
-    width: 1440px; 
-    height: 600px; 
-    overflow: hidden;
-    border: 2px solid white;
 }
