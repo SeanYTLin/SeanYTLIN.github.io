@@ -65,6 +65,7 @@
 }
 
 .description-text{
+    width: 50vw;
     text-align: center;
     /*padding: 0.1em 11%; /* use relative padding */
 }
@@ -72,13 +73,13 @@
 .description-text-1{
     padding-top: 10%;
     font-family: Merriweather;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     letter-spacing: 0.2rem;
 }
 
 .description-text-2{
     font-family: Lato;
-    font-size: 1.8rem;
+    font-size: 1.8vw;
     letter-spacing: 0.05rem;
 }
 
@@ -153,6 +154,25 @@
         width: 100%;
         height: auto;
     }
+
+    .frist{
+        font-family: Lato;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .second{
+        font-family: Lato;
+        font-size: 0.8rem;
+    }
+    
+    
+    .end-text-right{
+        font-family: Lato;
+        font-size: 1.3rem; 
+    }
 }
 
 .bottom{
@@ -183,6 +203,8 @@ body {
     font-family: Lato;
     font-size: 1.8rem;
     font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .second{
@@ -193,8 +215,7 @@ body {
 
 .end-text-right{
     font-family: Lato;
-    font-size: 30px; 
-    padding: 40px;   
+    font-size: 1.3rem; 
 }
 
 .end-text-right:hover{
