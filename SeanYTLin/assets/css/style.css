@@ -57,12 +57,20 @@
 
 .description-img-1{
     width: 48%;
+    position: relative;
+    overflow: hidden;
 }
 
 .description-img-1 img {
     width: 100%;
     height: auto;
+    transition: transform 0.5s, opacity 0.5s;
 }
+
+.description-img-1:hover img {
+    transform: scale(1.1) translateZ(0);
+    opacity: 0.8;
+  }
 
 .description-text{
     width: 50vw;
@@ -157,7 +165,7 @@
 
     .frist{
         font-family: Lato;
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: bold;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -165,13 +173,13 @@
     
     .second{
         font-family: Lato;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     
     
     .end-text-right{
         font-family: Lato;
-        font-size: 1.3rem; 
+        font-size: 0.6rem; 
     }
 }
 
@@ -201,7 +209,7 @@ body {
 
 .frist{
     font-family: Lato;
-    font-size: 1.8rem;
+    font-size: 3.4vw;
     font-weight: bold;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -209,13 +217,13 @@ body {
 
 .second{
     font-family: Lato;
-    font-size: 1.3rem;
+    font-size: 2.5vw;
 }
 
 
 .end-text-right{
     font-family: Lato;
-    font-size: 1.3rem; 
+    font-size: 2.5vw; 
 }
 
 .end-text-right:hover{
@@ -223,3 +231,4 @@ body {
     text-decoration: underline;
     cursor: pointer;
 }
+
