@@ -293,15 +293,26 @@ body {
   }
 
 /*News*/
+.news_block{
+    text-align: center;
+    font-family: Lato;
+    font-size: 2.5vw;
+}
+
+.news_block:hover{
+    color: rgb(254, 213, 147);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .news{
     display: flex;
     left: 0;
     flex-direction:row;
     justify-content: space-between;
     align-items: center;
-    padding: 0.1em 2%; /* use relative padding */
     text-align: center;
-    font-size: 1.5rem; /* use relative font size */
+    font-size: 1.8vw; /* use relative font size */
     font-family: Lato;
     color: black;
     backdrop-filter: blur(10px);
@@ -310,7 +321,6 @@ body {
 .preview-block {
     width: 50%;
     box-sizing: border-box;
-    padding: 0.1em 2%;
     float: left;
 }
 
@@ -319,10 +329,41 @@ body {
     height: 45vh;
 }
 
+@media (max-width: 1260px) {
+    .text-box {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4rem;
+        background-color: rgba(211, 211, 211, 0.8);
+        font-family: Lato;
+        font-size: 1.2vw;
+        color: #323232;
+        padding-left: 3%;
+        box-sizing: border-box;
+      }
+}
+
 @media (max-width: 800px) {
     #gallery {
      -moz-column-count:    2;
      -webkit-column-count: 2;
      column-count:         2;
     }
+    .text-box {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4rem;
+        background-color: rgba(211, 211, 211, 0.8);
+        font-family: Lato;
+        font-size: 2.5vw;
+        color: #323232;
+        padding-left: 3%;
+        box-sizing: border-box;
+      }
 }
