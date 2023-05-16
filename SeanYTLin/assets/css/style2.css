@@ -41,7 +41,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 4rem;
 }
 
 .description-img-1{
@@ -63,15 +62,19 @@
 
 .description-text-1{
     padding-top: 5%;
+    margin-bottom: 0;
     font-family: Merriweather;
     font-size: 2.5vw;
-    letter-spacing: 0.2rem;
+    letter-spacing: rem;
+    padding-left: 3rem;
 }
 
 .description-text-2{
+    margin-top: 0;
     font-family: Lato;
     font-size: 1.8vw;
     letter-spacing: 0.05rem;
+    padding-left: 3rem;
 }
 
 .description-img-2 {

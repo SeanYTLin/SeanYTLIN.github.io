@@ -367,8 +367,8 @@ body {
 }
 
 .preview-block iframe {
-    width: 45vw;
-    height: 45vh;
+    width: 46vw;
+    height: 46vh;
 }
 
 @media (max-width: 1260px) {
