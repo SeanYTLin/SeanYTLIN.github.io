@@ -1,3 +1,10 @@
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
 .top{
     background: rgb(228, 178, 120);
 }
@@ -352,18 +359,9 @@ body {
 }
 
 .project_img iframe {
-    width: 105vw;
-    height: 100vh;
-    transform: scale(0.45); /* Adjust the scale value as desired */
-    transform-origin: top left;
+    width: 46vw;
+    height: 46vh;
 }
-
-body, html {
-    width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-  }
 
 /*
 .project_img {
