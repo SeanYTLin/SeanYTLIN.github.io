@@ -116,18 +116,6 @@
         letter-spacing: 0.05rem;
     }
 
-    .description-text-3{
-        font-family: Lato;
-        font-size: 1.8rem;
-        letter-spacing: 0.05rem;
-        color:rgba(228, 178, 120, 0.1);
-    }
-    
-    .description-text-3::selection {
-        color:firebrick;
-        background-color: rgba(228, 178, 120, 0.1);
-    }
-
     .description-img-2 {
         width: 100%;
     }
