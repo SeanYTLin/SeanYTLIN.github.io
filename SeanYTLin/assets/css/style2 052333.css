@@ -31,10 +31,6 @@
     height: 6rem;
 }
 
-.space2{
-    height: 2rem;
-}
-
 .homepage{
     width: auto;
     display: flex;
@@ -48,7 +44,7 @@
 }
 
 .description-img-1{
-    width: 48%;
+    width: 30vw;
     position: relative;
     overflow: hidden;
 }
@@ -64,38 +60,22 @@
     opacity: 0.8;
   }
 
-.description-text{
-    width: 50vw;
-    text-align: center;
-    /*padding: 0.1em 11%; /* use relative padding */
-}
-
 .description-text-1{
-    padding-top: 10%;
+    padding-top: 5%;
+    margin-bottom: 0;
     font-family: Merriweather;
     font-size: 2.5vw;
-    letter-spacing: 0.2rem;
+    letter-spacing: rem;
+    padding-left: 3rem;
 }
 
 .description-text-2{
+    margin-top: 0;
     font-family: Lato;
     font-size: 1.8vw;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.03rem;
+    padding-left: 3rem;
 }
-
-.description-text-3{
-    font-family: Lato;
-    font-size: 1.8rem;
-    letter-spacing: 0.05rem;
-    color:rgba(228, 178, 120, 0.1);
-}
-
-.description-text-3::selection {
-    color:firebrick;
-    background-color: rgba(228, 178, 120, 0.1);
-}
-
-
 
 .description-img-2 {
     width: 100%;
@@ -108,7 +88,7 @@
 
 /* Media query for screens smaller than 480px */
 @media (max-width: 480px) {
-    .description{
+    .description .project{
         flex-direction: column;
         align-items: center;
     }
@@ -134,18 +114,6 @@
     .description-text-2{
         font-size: 1rem;
         letter-spacing: 0.05rem;
-    }
-
-    .description-text-3{
-        font-family: Lato;
-        font-size: 1.8rem;
-        letter-spacing: 0.05rem;
-        color:rgba(228, 178, 120, 0.1);
-    }
-    
-    .description-text-3::selection {
-        color:firebrick;
-        background-color: rgba(228, 178, 120, 0.1);
     }
 
     .description-img-2 {
@@ -180,8 +148,8 @@
     -webkit-column-count: 2;
     column-count:         2;
     }
-
-    .news_block{
+    
+    .bio_block{
         text-align: center;
         font-family: Lato;
         font-size: 4.5vw;
@@ -279,94 +247,73 @@ body {
     cursor: pointer;
 }
 
-/*photo*/
-#gallery {
-    line-height: 0;
-    -webkit-column-count: 5;
-    -webkit-column-gap: 5px;
-    -moz-column-count: 5;
-    -moz-column-gap: 5px;
-    column-count: 5;
-    column-gap: 5px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .image-box {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-bottom: 5px;
-  }
-  
-  .image-box img {
-    width: 100%;
-    height: auto;
-    filter: grayscale(60%);
-    transition: transform 0.5s, opacity 0.5s;
-  }
-  
-  .image-box:hover img {
-    filter: none;
-    transform: scale(1.05) translateZ(0);
-    opacity: 0.95;
-  }
-  
-  .text-box {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 4rem;
-    background-color: rgba(211, 211, 211, 0.8);
-    font-family: Lato;
-    color: #323232;
-    padding-left: 3%;
-    box-sizing: border-box;
-  }
-  
-  .image-box:hover .text-box {
-    display: block;
-  }
 
 /*News*/
-.news_block{
+.project_block{
     text-align: center;
-    font-family: Lato;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
+    font-family: Merriweather;
+    letter-spacing: 0.05rem;
 }
 
-.news_block:hover{
+.project_block:hover{
     color: rgb(254, 213, 147);
     text-decoration: underline;
     cursor: pointer;
 }
 
-.news{
+.bio_block{
+    text-align: center;
+    font-size: 4vw;
+    font-family: Merriweather;
+    letter-spacing: 0.05rem;
+}
+
+.bio_block:hover{
+    color: rgb(254, 213, 147);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.project {
     display: flex;
-    left: 0;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     font-size: 1.8vw; /* use relative font size */
     font-family: Lato;
     color: black;
-    backdrop-filter: blur(10px);
 }
 
-.preview-block {
-    width: 50%;
-    box-sizing: border-box;
-    float: left;
+.project_img {
+    width: 100%;
+    height: auto;
+  }
+  
+.project_img  img {
+width: 100%;
+height: auto;
 }
 
-.preview-block iframe {
-    width: 46vw;
-    height: 46vh;
+/*
+.project_img {
+    width: 45vw;
+    height: 45vh;
 }
 
+.project_img img{
+    height: auto;
+    width: 100%;
+}
+  
+
+.project_img iframe {
+    width: 100%;
+    height: 100%;
+
+}
+*/
 @media (max-width: 1260px) {
     .text-box {
         display: none;

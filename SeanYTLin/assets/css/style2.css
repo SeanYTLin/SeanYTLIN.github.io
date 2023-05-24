@@ -64,7 +64,7 @@
     padding-top: 5%;
     margin-bottom: 0;
     font-family: Merriweather;
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     letter-spacing: rem;
     padding-left: 3rem;
 }
@@ -72,8 +72,8 @@
 .description-text-2{
     margin-top: 0;
     font-family: Lato;
-    font-size: 1.8vw;
-    letter-spacing: 0.05rem;
+    font-size: 1.75vw;
+    letter-spacing: 0.03rem;
     padding-left: 3rem;
 }
 
@@ -298,7 +298,7 @@ body {
     display: block;
   }
 
-/*News*/
+/*Project*/
 .project_block{
     text-align: center;
     font-size: 2.8vw;
@@ -327,9 +327,10 @@ body {
 
 .project {
     display: flex;
+    left: 0;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     text-align: center;
     font-size: 1.8vw; /* use relative font size */
     font-family: Lato;
@@ -337,6 +338,34 @@ body {
     backdrop-filter: blur(10px);
 }
 
+
+.project_img {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+.project_img img {
+    width: 46vw;
+    height: 46vh;
+}
+
+.project_img iframe {
+    width: 105vw;
+    height: 100vh;
+    transform: scale(0.45); /* Adjust the scale value as desired */
+    transform-origin: top left;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+/*
 .project_img {
     height: 45vh;
     width: 45vw;
@@ -348,11 +377,12 @@ body {
 }
 
 .project_img iframe {
-    width: 180%;
-    height: 200%;
-    transform: scale(0.5); /* Adjust the scale value as desired */
+    width: 85vw;
+    height: 100vh;
+    transform: scale(0.5); 
     transform-origin: top left;
 }
+*/
 
 @media (max-width: 1260px) {
     .text-box {
