@@ -458,3 +458,133 @@ body {
         height: 45vh;
     }    
 }
+
+@media (max-width: 500px) {
+    /*project*/
+    .project{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project_img{
+        width: 95vw;
+        height: auto;
+    }
+
+    .project_img span{
+        font-size: 150%;
+    }
+
+    .project_img img{
+        width: 100%;
+        height: auto;
+    }
+
+    .project_img iframe {
+        width: 95vw;
+        height: 50vh;
+    }
+    
+
+    /**/
+    .description{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-img-1{
+        width: 100%;
+        /*margin-bottom: 1rem;*/
+    }
+
+    .description-text{
+        top: 0;
+        width: 100%;
+        max-width: 600px;
+        /*padding: 0 1rem;*/
+    }
+
+    .description-text-1{
+        padding-top: 0%;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .description-text-2{
+        font-size: 0.7rem;
+        letter-spacing: 0.02rem;
+    }
+
+    .description-img-2 {
+        width: 100%;
+    }
+    
+    .description-img-2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .frist{
+        font-family: Lato;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .second{
+        font-family: Lato;
+        font-size: 0.6rem;
+    }
+    
+    
+    .end-text-right{
+        font-family: Lato;
+        font-size: 0.6rem; 
+    }
+    
+    .bio_block{
+        text-align: center;
+        font-family: Lato;
+        font-size: 4.5vw;
+    }
+
+    .text-box {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4rem;
+        background-color: rgba(211, 211, 211, 0.8);
+        font-family: Lato;
+        font-size: 2.5vw;
+        color: #323232;
+        padding-left: 3%;
+        box-sizing: border-box;
+      }
+
+    .news{
+        display: flex;
+        left: 0;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-size: 3vw; /* use relative font size */
+        font-family: Lato;
+        color: black;
+        backdrop-filter: blur(10px);
+    }
+
+    .preview-block {
+        width: 100%;
+        box-sizing: border-box;
+        float: left;
+    }
+    
+    .preview-block iframe {
+        width: 90vw;
+        height: 45vh;
+    }    
+}
