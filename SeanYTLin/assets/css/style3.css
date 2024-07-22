@@ -123,20 +123,20 @@ body {
 
 .frist{
     font-family: Lato;
-    font-size: 3.4vw;
+    font-size: 2.5vw;
     font-weight: bold;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .second{
     font-family: Lato;
-    font-size: 2.5vw;
+    font-size: 1.6vw;
 }
 
 .end-text-right{
     font-family: Lato;
-    font-size: 2.5vw; 
+    font-size: 1.6vw; 
 }
 
 .end-text-right:hover{

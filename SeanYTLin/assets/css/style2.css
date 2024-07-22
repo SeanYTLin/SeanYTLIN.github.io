@@ -35,7 +35,7 @@ body, html {
 }
 
 .space{
-    height: 5.5rem;
+    height: 5rem;
 }
 
 /**/
@@ -45,14 +45,15 @@ body, html {
     flex-direction: column;
 }
 
-.description{
+.description {
     display: flex;
     flex-direction: row;
+    align-items: center; /* Center items vertically */
     justify-content: flex-start;
 }
 
 .description-img-1{
-    width: 30vw;
+    width: 34vw;
     position: relative;
     overflow: hidden;
 }
@@ -69,7 +70,7 @@ body, html {
   }
 
 .description-text-1{
-    padding-top: 5%;
+    padding-top: 0%;
     margin-bottom: 0;
     font-family: Merriweather;
     font-size: 2.4vw;
@@ -86,12 +87,21 @@ body, html {
 }
 
 .description-img-2 {
-    width: 100%;
+    width: 23vw; /* Ensures all images have the same width */
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .description-img-2 img {
-    width: 100%;
+    width: 100%; /* Ensures images fill the container */
     height: auto;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.description-img-2:hover img {
+    transform: scale(1.1) translateZ(0);
+    opacity: 0.8;
 }
 
 .bottom{
@@ -124,20 +134,21 @@ body {
 
 .frist{
     font-family: Lato;
-    font-size: 3.4vw;
+    font-size: 2.5vw;
     font-weight: bold;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .second{
     font-family: Lato;
-    font-size: 2.5vw;
+    font-size: 1.6vw;
 }
+
 
 .end-text-right{
     font-family: Lato;
-    font-size: 2.5vw; 
+    font-size: 1.6vw; 
 }
 
 .end-text-right:hover{
@@ -162,7 +173,7 @@ body {
 
 .bio_block{
     text-align: center;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-family: Merriweather;
     letter-spacing: 0.05rem;
 }
