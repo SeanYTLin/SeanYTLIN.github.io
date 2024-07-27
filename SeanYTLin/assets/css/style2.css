@@ -193,15 +193,16 @@ body {
     cursor: pointer;
 }
 
+/*Project*/
+
 .project {
     display: flex;
-    left: 0;
     flex-direction: row;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start; /* Align items to the top */
     text-align: center;
-    font-size: 1.8vw; /* use relative font size */
-    font-family: Lato;
+    font-size: 1.8vw; /* Use relative font size */
+    font-family: Lato, sans-serif; /* Added fallback font */
     color: black;
     backdrop-filter: blur(10px);
 }
@@ -209,7 +210,11 @@ body {
 .project_img {
     width: 50%;
     box-sizing: border-box;
-    float: left;
+    padding: 10px; /* Add padding for some spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text horizontally */
 }
 
 .project_img_80 {
@@ -217,13 +222,69 @@ body {
 }
 
 .project_img img {
-    width: 46vw;
-    height: 46vh;
+    max-width: 100%; /* Ensures the image does not exceed the parent width */
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 600px; /* Set a maximum height */
+    object-fit: contain; /* Ensure the entire image fits within the specified dimensions */
+}
+
+.project_img {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px; /* Add padding for some spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text horizontally */
 }
 
 .project_img iframe {
-    width: 46vw;
-    height: 46vh;
+    max-width: 125%;
+    width: 1600px; /* Set the width as needed */
+    height: 700px; /* Set the height as needed */
+    border: none;
+    transform: scale(0.8); /* Scale down to 70% */
+    transform-origin: top left; /* Scale from the top-left corner */
+    margin: auto; /* Center the iframe horizontally */
+}
+
+/*Logo*/
+.school-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.school-logos img {
+    max-height: 200px; /* Adjust the height as needed */
+    margin: 3px;
+}
+
+.school-logos img:hover {
+    transform: scale(1.1) translateZ(0);
+    opacity: 0.8;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.skills-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skills-logos img {
+    max-height: 80px; /* Adjust the height as needed */
+    margin: 3px;
+}
+
+.skills-logos img:hover {
+    transform: scale(1.1) translateZ(0);
+    opacity: 0.8;
+    transition: transform 0.5s, opacity 0.5s;
 }
 
 /*Media*/
