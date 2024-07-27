@@ -173,7 +173,7 @@
     
     .end-text-right{
         font-family: Lato;
-        font-size: 0.6rem; 
+        font-size: 1.2rem; 
     }
     #gallery {
     -moz-column-count:    2;
@@ -382,6 +382,25 @@ body {
         padding-left: 3%;
         box-sizing: border-box;
       }
+
+    .frist{
+        font-family: Lato;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .second{
+        font-family: Lato;
+        font-size: 0.6rem;
+    }
+    
+    
+    .end-text-right{
+        font-family: Lato;
+        font-size: 1.2rem; 
+    }
 }
 
 @media (max-width: 800px) {
@@ -410,6 +429,25 @@ body {
         color: #323232;
         padding-left: 3%;
         box-sizing: border-box;
+    }
+
+    .frist{
+        font-family: Lato;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .second{
+        font-family: Lato;
+        font-size: 0.6rem;
+    }
+    
+    
+    .end-text-right{
+        font-family: Lato;
+        font-size: 1.2rem; 
     }
 }
 
@@ -463,5 +501,24 @@ body {
     .preview-block iframe {
         width: 90vw;
         height: 45vh;
+    }
+
+    .frist{
+        font-family: Lato;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .second{
+        font-family: Lato;
+        font-size: 0.6rem;
+    }
+    
+    
+    .end-text-right{
+        font-family: Lato;
+        font-size: 1.2rem; 
     }
 }
